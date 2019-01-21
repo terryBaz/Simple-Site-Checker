@@ -64,7 +64,7 @@ class XMLSitemapParser(object):
         else:
             try:
                 path = os.path.abspath(url)
-                sitemap = open(url)
+                sitemap = open(url, encoding="utf8")
             except Exception, e:
                 logger.error('Unable to load sitemap file from %s' % path)
                 logger.debug(e)
