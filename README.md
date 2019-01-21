@@ -14,8 +14,8 @@ broken link in the sitemap.
 Usage:
 ======
 you should have python3 and pip setup in your environment
->install argparse and lxml
 
+> install argparse and lxml
     pip install argparse lxml
 > run to check your setup
 
